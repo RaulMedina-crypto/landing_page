@@ -5,11 +5,23 @@ body{
 }
 
 header{
+    font-family: cursive;
     text-align: center;
-    padding: 20px;
-    background-color: lightblue;
-    margin: 10px;
-    border: 10px solid black;
+    padding: 40px;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.4);
+    border: 10px solid white;
+}
+
+.titulo-disco{
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+
+.titulo-disco:hover{
+    color: cyan;
 }
 
 p{
@@ -17,9 +29,61 @@ p{
     font-size:x-large;
 }
 
-.container{
+
+div{
     text-align: center;
-    background-color: orange;
-    margin: 10px;
-    border: 10px solid black;
 }
+
+
+
+.btn:hover{
+    background-color: cyan;
+    color: black;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.tarjeta-disco{
+    margin-bottom: 30px;
+    width: 30%;
+    max-width: 700px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.contenedor-cards{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#canciones{
+    border: 5px solid black;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px;
+    background-color: gold;
+}
+
+#amor_atomico{
+    border: 5px solid blue;
+}
+
+
+#canciones ol{
+    list-style-position: inside;
+    padding: 0;
+}
+
+#canciones li{
+    font-size: 30px;
+}
+
+
