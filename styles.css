@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+    margin: 10px;
+    border: 10px solid black;
+}
+
+p{
+    text-align: center;
+    font-size:x-large;
+}
+
+.container{
+    text-align: center;
+    background-color: orange;
+    margin: 10px;
+    border: 10px solid black;
+}
